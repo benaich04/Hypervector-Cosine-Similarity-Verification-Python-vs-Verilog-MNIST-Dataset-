@@ -192,19 +192,6 @@ The highest cosine similarity is always class 9, followed by Classes 7, 3 etc..
 
 ---
 
-## Repository Structure
-
-```bash
-root/
-|-- mnist_code/  --> Modified MNIST hypervector generator
-|-- txt_files/
-|-- mem_files/
-|-- verilog/
-|-- documentation/
-```
-
----
-
 ## Conclusion
 
 This project verifies floating-point hardware hypervector cosine similarity pipelines using real MNIST data and compares hardware and software implementations with high precision.
