@@ -146,12 +146,14 @@ During execution, multiple screenshots are taken to illustrate the full flow:
 ### 2. NPY to TXT Conversion
 
 * Screenshot showing the conversion script successfully saving `.txt` files.
-![image](https://github.com/user-attachments/assets/8923d5ea-4d32-4b7e-9eaa-967423fca0df)
+![451306642-8923d5ea-4d32-4b7e-9eaa-967423fca0df](https://github.com/user-attachments/assets/78b2d14f-95ad-4ef1-b3a6-4cb018843b5d)
+
 
 ### 3. TXT to MEM Conversion
 
 * Screenshot showing the MEM file generation script producing `.mem` files for Verilog.
-![image](https://github.com/user-attachments/assets/c2b60448-9701-4826-abdc-64ca231fc225)
+![451306828-c2b60448-9701-4826-abdc-64ca231fc225](https://github.com/user-attachments/assets/1c40d4e8-dcd1-43a5-b157-b1af2c107c64)
+
 
 ### 4. Verilog Testbench Execution
 
@@ -162,7 +164,8 @@ During execution, multiple screenshots are taken to illustrate the full flow:
 ### 5. Result Table Construction
 * Screenshot of all extracted hex values converted back to floating-point decimal values.
 * A final result table is built comparing Python and Verilog values side-by-side.
-  ![image](https://github.com/user-attachments/assets/eaa74d21-7984-4503-8a3b-6e3f56e8f468)
+  ![451308174-eaa74d21-7984-4503-8a3b-6e3f56e8f468](https://github.com/user-attachments/assets/892bbbfd-d10a-4d1e-8236-6cbbfab1a649)
+
 
 
 ---
