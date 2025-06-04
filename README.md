@@ -188,7 +188,7 @@ During execution, multiple screenshots are taken to illustrate the full flow:
 | 9     | 0.9996167421340942 | 0.998586594860889 |
 
 
-The highest cosine similarity is always class 9.
+The highest cosine similarity is always class 9, followed by Classes 7, 3 etc..
 
 ---
 
