@@ -140,23 +140,29 @@ During execution, multiple screenshots are taken to illustrate the full flow:
 ### 1. Python hypervector generation
 
 * Screenshot showing MNIST hypervector generation with all class cosine similarities printed.
+  
+![Capture2](https://github.com/user-attachments/assets/bebc14c4-42d0-4bae-9832-a09e06adf492)
 
 ### 2. NPY to TXT Conversion
 
 * Screenshot showing the conversion script successfully saving `.txt` files.
+![image](https://github.com/user-attachments/assets/8923d5ea-4d32-4b7e-9eaa-967423fca0df)
 
 ### 3. TXT to MEM Conversion
 
 * Screenshot showing the MEM file generation script producing `.mem` files for Verilog.
+![image](https://github.com/user-attachments/assets/c2b60448-9701-4826-abdc-64ca231fc225)
 
 ### 4. Verilog Testbench Execution
 
 * Screenshot of the ISE simulation console displaying cosine similarity results per class, printed in IEEE-754 hex.
+![Design sans titre](https://github.com/user-attachments/assets/6bb5af2a-f370-4215-b79a-e56bac365bff)
 
 ### 5. Result Table Construction
-
 * Screenshot of all extracted hex values converted back to floating-point decimal values.
 * A final result table is built comparing Python and Verilog values side-by-side.
+  ![image](https://github.com/user-attachments/assets/eaa74d21-7984-4503-8a3b-6e3f56e8f468)
+
 
 ---
 
