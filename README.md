@@ -172,19 +172,21 @@ During execution, multiple screenshots are taken to illustrate the full flow:
 ---
 
 ## Sample Results Table
+## Sample Results Table
 
-| Class | Python Cosine | Verilog Cosine  |
-| ----- | ------------- | --------------- |
-| 0     | 0.99952358    | (Verilog value) |
-| 1     | 0.99958920    | (Verilog value) |
-| 2     | 0.99954694    | (Verilog value) |
-| 3     | 0.99959272    | (Verilog value) |
-| 4     | 0.99957293    | (Verilog value) |
-| 5     | 0.99955553    | (Verilog value) |
-| 6     | 0.99953097    | (Verilog value) |
-| 7     | 0.99960995    | (Verilog value) |
-| 8     | 0.99954766    | (Verilog value) |
-| 9     | 0.99961674    | (Verilog value) |
+| Class | Verilog Cosine | Python Cosine |
+| ----- | -------------- | -------------- |
+| 0     | 0.9995235800743103 | 0.998731353427 |
+| 1     | 0.999589204788208  | 0.998367426298106 |
+| 2     | 0.9995469450950623 | 0.99886719161406 |
+| 3     | 0.9995927214622498 | 0.99886745355115 |
+| 4     | 0.9995729327201843 | 0.998666796084037 |
+| 5     | 0.9995555281639099 | 0.99844809179551 |
+| 6     | 0.9995309710502625 | 0.99847728275918 |
+| 7     | 0.9996099472045898 | 0.998536795741595 |
+| 8     | 0.9995476603507996 | 0.99850609066405 |
+| 9     | 0.9996167421340942 | 0.998586594860889 |
+
 
 The highest cosine similarity is always class 9.
 
