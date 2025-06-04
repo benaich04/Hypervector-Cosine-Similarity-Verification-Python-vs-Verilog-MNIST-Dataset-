@@ -140,8 +140,8 @@ During execution, multiple screenshots are taken to illustrate the full flow:
 ### 1. Python hypervector generation
 
 * Screenshot showing MNIST hypervector generation with all class cosine similarities printed.
-  
-![Capture2](https://github.com/user-attachments/assets/bebc14c4-42d0-4bae-9832-a09e06adf492)
+  ![Capture2](https://github.com/user-attachments/assets/1a7d2be5-7cbf-4658-ba48-1597be437fd9)
+
 
 ### 2. NPY to TXT Conversion
 
@@ -156,7 +156,8 @@ During execution, multiple screenshots are taken to illustrate the full flow:
 ### 4. Verilog Testbench Execution
 
 * Screenshot of the ISE simulation console displaying cosine similarity results per class, printed in IEEE-754 hex.
-![Design sans titre](https://github.com/user-attachments/assets/6bb5af2a-f370-4215-b79a-e56bac365bff)
+![Design sans titre](https://github.com/user-attachments/assets/0ede34f9-1934-4778-8d9b-203679ce2baa)
+
 
 ### 5. Result Table Construction
 * Screenshot of all extracted hex values converted back to floating-point decimal values.
