@@ -16,7 +16,7 @@ This repository demonstrates a complete hardware-software verification pipeline 
 
 We use the following GitHub repository as our base for hypervector generation:
 
-**Original Repo:** [MNIST Hyperdimensional Computing (Github)](https://github.com/taylorjoshua/hyperdimensional-computing-mnist)
+**Original Repo:** [MNIST Hyperdimensional Computing (Github)](https://github.com/noahgolmant/HyperdimMNIST)
 
 ---
 
