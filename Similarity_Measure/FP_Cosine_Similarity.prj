@@ -1,0 +1,5 @@
+verilog work "ipcore_dir/FP_Sqrt.v"
+verilog work "ipcore_dir/FP_Multiplier.v"
+verilog work "ipcore_dir/FP_Divider.v"
+verilog work "ipcore_dir/FP_Adder.v"
+verilog work "Similarity.v"

@@ -1,0 +1,8 @@
+Command line:
+   tb_FP_Cosine_Similarity_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50160
+
+Tue Jun 03 19:28:09 2025
+

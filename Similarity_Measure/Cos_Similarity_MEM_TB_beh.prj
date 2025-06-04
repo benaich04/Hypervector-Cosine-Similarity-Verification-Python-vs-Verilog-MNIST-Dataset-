@@ -1,0 +1,7 @@
+verilog work "ipcore_dir/FP_Multiplier.v"
+verilog work "ipcore_dir/FP_Adder.v"
+verilog work "ipcore_dir/FP_Sqrt.v"
+verilog work "ipcore_dir/FP_Divider.v"
+verilog work "Similarity.v"
+verilog work "Cos_Similarity_MEM_TB.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

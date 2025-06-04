@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB_isim_beh.exe" -prj "T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB_beh.prj" "work.Cos_Similarity_MEM_TB" "work.glbl" 

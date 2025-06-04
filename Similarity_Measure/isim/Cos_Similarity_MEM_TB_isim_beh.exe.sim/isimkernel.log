@@ -1,0 +1,29 @@
+Command line:
+   Cos_Similarity_MEM_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56092
+
+Wed Jun 04 01:59:03 2025
+
+
+ Elaboration Time: 2.45313 sec
+
+ Current Memory Usage: 6111.38 Meg
+
+ Total Signals          : 144143
+ Total Nets             : 81187
+ Total Signal Drivers   : 56797
+ Total Blocks           : 32773
+ Total Primitive Blocks : 25339
+ Total Processes        : 106655
+ Total Traceable Variables  : 76565
+ Total Scalar Nets and Variables : 536722
+Total Line Count : 329102
+
+ Total Simulation Time: 4.26563 sec
+
+ Current Memory Usage: 5184.25 Meg
+
+Wed Jun 04 02:02:16 2025
+

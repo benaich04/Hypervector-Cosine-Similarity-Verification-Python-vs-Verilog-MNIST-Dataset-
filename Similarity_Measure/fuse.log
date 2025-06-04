@@ -1,0 +1,69 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB_isim_beh.exe -prj T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB_beh.prj work.Cos_Similarity_MEM_TB work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Multiplier.v" into library work
+Analyzing Verilog file "T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Adder.v" into library work
+WARNING:HDLCompiler:687 - "T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Adder.v" Line 9357: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Sqrt.v" into library work
+WARNING:HDLCompiler:687 - "T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Sqrt.v" Line 19463: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Divider.v" into library work
+WARNING:HDLCompiler:687 - "T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Divider.v" Line 30892: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" into library work
+Analyzing Verilog file "T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 60: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 83: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 97: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 132: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 155: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 169: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 188: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 214: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 237: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 251: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 269: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 285: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 304: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:189 - "T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB.v" Line 34: Size mismatch in connection of port <A_flat>. Formal port size is 128-bit while actual signal size is 3200-bit.
+WARNING:HDLCompiler:189 - "T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB.v" Line 35: Size mismatch in connection of port <B_flat>. Formal port size is 128-bit while actual signal size is 3200-bit.
+WARNING:HDLCompiler:189 - "T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB.v" Line 36: Size mismatch in connection of port <A_valid_in>. Formal port size is 4-bit while actual signal size is 100-bit.
+WARNING:HDLCompiler:189 - "T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB.v" Line 37: Size mismatch in connection of port <B_valid_in>. Formal port size is 4-bit while actual signal size is 100-bit.
+Completed static elaboration
+Compiling module FDE
+Compiling module SRLC16E
+Compiling module INV
+Compiling module FDRE
+Compiling module LUT2_copy1
+Compiling module LUT6_copy1
+Compiling module LUT5_copy1
+Compiling module LUT3_copy1
+Compiling module LUT4_copy1
+Compiling module FD
+Compiling module LUT1_copy1
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module FDR
+Compiling module GND
+Compiling module VCC
+Compiling module DSP48E1_copy1
+Compiling module DSP48E1_copy2
+Compiling module FP_Multiplier_2
+Compiling module DSP48E1(ACASCREG=2,ADREG=0,AREG=...
+Compiling module DSP48E1(ADREG=0,DREG=0,INMODEREG...
+Compiling module FP_Adder
+Compiling module SRLC32E
+Compiling module FP_Sqrt
+Compiling module FP_Multiplier
+Compiling module FP_Divider
+Compiling module FP_Cosine_Similarity_default
+Compiling module Cos_Similarity_MEM_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 207 Verilog Units
+Built simulation executable T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB_isim_beh.exe
+Fuse Memory Usage: 66184 KB
+Fuse CPU Usage: 5703 ms

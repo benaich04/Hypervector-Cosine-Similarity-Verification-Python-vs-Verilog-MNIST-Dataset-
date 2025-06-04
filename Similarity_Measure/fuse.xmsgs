@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Adder.v" Line 9357: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Sqrt.v" Line 19463: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/ipcore_dir/FP_Divider.v" Line 30892: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 60: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 83: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 97: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 132: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 155: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 169: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 188: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 214: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 237: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 251: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 269: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 285: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Similarity.v" Line 304: Port <arg fmt="%s" index="1">m_axis_result_tready</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB.v" Line 34: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">A_flat</arg>&gt;. Formal port size is <arg fmt="%d" index="2">128</arg>-bit while actual signal size is <arg fmt="%d" index="1">3200</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB.v" Line 35: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">B_flat</arg>&gt;. Formal port size is <arg fmt="%d" index="2">128</arg>-bit while actual signal size is <arg fmt="%d" index="1">3200</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB.v" Line 36: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">A_valid_in</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">100</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"T:/benmed/Similarity_Measure/Similarity_Measure/Cos_Similarity_MEM_TB.v" Line 37: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">B_valid_in</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">100</arg>-bit.
+</msg>
+
+</messages>
+

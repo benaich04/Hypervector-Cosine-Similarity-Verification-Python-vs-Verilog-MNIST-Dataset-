@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.xst" -ofn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.syr" 
+xst -intstyle ise -ifn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.xst" -ofn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.syr" 
+xst -intstyle ise -ifn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.xst" -ofn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.syr" 
+xst -intstyle ise -ifn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.xst" -ofn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim FP_Cosine_Similarity.ngc FP_Cosine_Similarity_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7a100t-csg324-1 FP_Cosine_Similarity.ngc FP_Cosine_Similarity.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FP_Cosine_Similarity_map.ncd FP_Cosine_Similarity.ngd FP_Cosine_Similarity.pcf 
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o FP_Cosine_Similarity_map.ncd FP_Cosine_Similarity.ngd FP_Cosine_Similarity.pcf 
+xst -intstyle ise -ifn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.xst" -ofn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.syr" 
+xst -intstyle ise -ifn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.xst" -ofn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.syr" 
+xst -intstyle ise -ifn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.xst" -ofn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.syr" 
+xst -intstyle ise -ifn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.xst" -ofn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.syr" 
+xst -intstyle ise -ifn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.xst" -ofn "T:/benmed/Similarity_Measure/Similarity_Measure/FP_Cosine_Similarity.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim FP_Cosine_Similarity.ngc FP_Cosine_Similarity_synthesis.v 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim FP_Cosine_Similarity.ngc FP_Cosine_Similarity_synthesis.v 

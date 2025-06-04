@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Similarity_Measure.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Cos_Similarity_MEM_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Cos_Similarity_MEM_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Cos_Similarity_MEM_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Cos_Similarity_MEM_TB_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="FP_Cosine_Similarity.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FP_Cosine_Similarity.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FP_Cosine_Similarity.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FP_Cosine_Similarity.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="FP_Cosine_Similarity.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FP_Cosine_Similarity.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FP_Cosine_Similarity.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FP_Cosine_Similarity.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FP_Cosine_Similarity.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FP_Cosine_Similarity.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FP_Cosine_Similarity_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FP_Cosine_Similarity_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FP_Cosine_Similarity_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="FP_Cosine_Similarity_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FP_Cosine_Similarity_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FP_Cosine_Similarity_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FP_Cosine_Similarity_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/FP_Cosine_Similarity_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/synthesis/FP_Cosine_Similarity_synthesis.v"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_FP_Cosine_Similarity_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_FP_Cosine_Similarity_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1748851720" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1748851720">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748987929" xil_pn:in_ck="4229996958235384038" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1748987929">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Cos_Similarity_MEM_TB.v"/>
+      <outfile xil_pn:name="FP_Cos_Similarity_TB.v"/>
+      <outfile xil_pn:name="Similarity.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1748979852" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5872913259105031083" xil_pn:start_ts="1748979852">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748979852" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1423545458924232179" xil_pn:start_ts="1748979852">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748851720" xil_pn:in_ck="3644694149862344936" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8446113704592449193" xil_pn:start_ts="1748851720">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Adder.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Adder.v"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Divider.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Divider.v"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Multiplier.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Multiplier.v"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Sqrt.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Sqrt.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1748987929" xil_pn:in_ck="4229996958235384038" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1748987929">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Cos_Similarity_MEM_TB.v"/>
+      <outfile xil_pn:name="FP_Cos_Similarity_TB.v"/>
+      <outfile xil_pn:name="Similarity.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1748987940" xil_pn:in_ck="8447168565692078014" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1666045479037334649" xil_pn:start_ts="1748987929">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Cos_Similarity_MEM_TB_beh.prj"/>
+      <outfile xil_pn:name="Cos_Similarity_MEM_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1748987940" xil_pn:in_ck="7613031321356563789" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6685811531061127580" xil_pn:start_ts="1748987940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Cos_Similarity_MEM_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1748840454" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1748840454">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748840454" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8617480250558069201" xil_pn:start_ts="1748840454">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748840454" xil_pn:in_ck="3644694149862344936" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8446113704592449193" xil_pn:start_ts="1748840454">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Adder.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Adder.v"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Divider.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Divider.v"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Multiplier.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Multiplier.v"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Sqrt.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/FP_Sqrt.v"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748840454" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5359397399346689293" xil_pn:start_ts="1748840454">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748840454" xil_pn:in_ck="-5036630092677060060" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1748840454">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748840454" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6245166933191240991" xil_pn:start_ts="1748840454">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748843162" xil_pn:in_ck="6419906793827054435" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-357402372196398781" xil_pn:start_ts="1748843138">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity.lso"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity.ngc"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity.ngr"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity.prj"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity.stx"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity.syr"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity.xst"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1748841962" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="9017280939027718430" xil_pn:start_ts="1748841962">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748842134" xil_pn:in_ck="8553416247156630530" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-5662936602281551928" xil_pn:start_ts="1748842107">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity.bld"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity.ngd"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1748842373" xil_pn:in_ck="6969949417263906211" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-7188367874928765557" xil_pn:start_ts="1748842336">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity_map.map"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity_map.mrp"/>
+      <outfile xil_pn:name="FP_Cosine_Similarity_map.ngm"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1748843489" xil_pn:in_ck="8553416247156630530" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-4781959036545584" xil_pn:start_ts="1748843486">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/synthesis/FP_Cosine_Similarity_synthesis.nlf"/>
+      <outfile xil_pn:name="netgen/synthesis/FP_Cosine_Similarity_synthesis.v"/>
+    </transform>
+  </transforms>
+
+</generated_project>

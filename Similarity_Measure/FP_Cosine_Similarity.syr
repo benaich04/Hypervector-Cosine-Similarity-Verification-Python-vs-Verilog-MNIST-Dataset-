@@ -1,0 +1,494 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: FP_Cosine_Similarity.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FP_Cosine_Similarity.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FP_Cosine_Similarity"
+Output Format                      : NGC
+Target Device                      : xc7a100t-1-csg324
+
+---- Source Options
+Top Module Name                    : FP_Cosine_Similarity
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Upper
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "T:\benmed\Similarity_Measure\Similarity_Measure\ipcore_dir\FP_Sqrt.v" into library work
+Parsing module <FP_Sqrt>.
+Analyzing Verilog file "T:\benmed\Similarity_Measure\Similarity_Measure\ipcore_dir\FP_Multiplier.v" into library work
+Parsing module <FP_Multiplier>.
+Analyzing Verilog file "T:\benmed\Similarity_Measure\Similarity_Measure\ipcore_dir\FP_Divider.v" into library work
+Parsing module <FP_Divider>.
+Analyzing Verilog file "T:\benmed\Similarity_Measure\Similarity_Measure\ipcore_dir\FP_Adder.v" into library work
+Parsing module <FP_Adder>.
+Analyzing Verilog file "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" into library work
+Parsing module <FP_Cosine_Similarity>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 60: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 83: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 97: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 132: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 155: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 169: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 188: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 214: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 237: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 251: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 269: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 285: Port m_axis_result_tready is not connected to this instance
+WARNING:HDLCompiler:1016 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" Line 304: Port m_axis_result_tready is not connected to this instance
+
+Elaborating module <FP_Cosine_Similarity>.
+
+Elaborating module <FP_Multiplier>.
+
+Elaborating module <FP_Adder>.
+
+Elaborating module <FP_Sqrt>.
+
+Elaborating module <FP_Divider>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <FP_Cosine_Similarity>.
+    Related source file is "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v".
+        N = 4
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 60: Output port <s_axis_a_tready> of the instance <MUL_AB_LOOP[0].mul_ab> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 60: Output port <s_axis_b_tready> of the instance <MUL_AB_LOOP[0].mul_ab> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 60: Output port <s_axis_a_tready> of the instance <MUL_AB_LOOP[1].mul_ab> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 60: Output port <s_axis_b_tready> of the instance <MUL_AB_LOOP[1].mul_ab> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 60: Output port <s_axis_a_tready> of the instance <MUL_AB_LOOP[2].mul_ab> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 60: Output port <s_axis_b_tready> of the instance <MUL_AB_LOOP[2].mul_ab> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 60: Output port <s_axis_a_tready> of the instance <MUL_AB_LOOP[3].mul_ab> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 60: Output port <s_axis_b_tready> of the instance <MUL_AB_LOOP[3].mul_ab> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 83: Output port <s_axis_a_tready> of the instance <DOT_CHAIN.add0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 83: Output port <s_axis_b_tready> of the instance <DOT_CHAIN.add0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 97: Output port <s_axis_a_tready> of the instance <DOT_CHAIN.DOT_ADD_CHAIN[2].addj> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 97: Output port <s_axis_b_tready> of the instance <DOT_CHAIN.DOT_ADD_CHAIN[2].addj> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 97: Output port <s_axis_a_tready> of the instance <DOT_CHAIN.DOT_ADD_CHAIN[3].addj> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 97: Output port <s_axis_b_tready> of the instance <DOT_CHAIN.DOT_ADD_CHAIN[3].addj> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 132: Output port <s_axis_a_tready> of the instance <MUL_AA_LOOP[0].mul_aa> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 132: Output port <s_axis_b_tready> of the instance <MUL_AA_LOOP[0].mul_aa> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 132: Output port <s_axis_a_tready> of the instance <MUL_AA_LOOP[1].mul_aa> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 132: Output port <s_axis_b_tready> of the instance <MUL_AA_LOOP[1].mul_aa> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 132: Output port <s_axis_a_tready> of the instance <MUL_AA_LOOP[2].mul_aa> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 132: Output port <s_axis_b_tready> of the instance <MUL_AA_LOOP[2].mul_aa> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 132: Output port <s_axis_a_tready> of the instance <MUL_AA_LOOP[3].mul_aa> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 132: Output port <s_axis_b_tready> of the instance <MUL_AA_LOOP[3].mul_aa> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 155: Output port <s_axis_a_tready> of the instance <NORM_A_CHAIN.adda0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 155: Output port <s_axis_b_tready> of the instance <NORM_A_CHAIN.adda0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 169: Output port <s_axis_a_tready> of the instance <NORM_A_CHAIN.NORM_A_ADD_CHAIN[2].addak> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 169: Output port <s_axis_b_tready> of the instance <NORM_A_CHAIN.NORM_A_ADD_CHAIN[2].addak> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 169: Output port <s_axis_a_tready> of the instance <NORM_A_CHAIN.NORM_A_ADD_CHAIN[3].addak> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 169: Output port <s_axis_b_tready> of the instance <NORM_A_CHAIN.NORM_A_ADD_CHAIN[3].addak> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 188: Output port <s_axis_a_tready> of the instance <sqrtA> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 214: Output port <s_axis_a_tready> of the instance <MUL_BB_LOOP[0].mul_bb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 214: Output port <s_axis_b_tready> of the instance <MUL_BB_LOOP[0].mul_bb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 214: Output port <s_axis_a_tready> of the instance <MUL_BB_LOOP[1].mul_bb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 214: Output port <s_axis_b_tready> of the instance <MUL_BB_LOOP[1].mul_bb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 214: Output port <s_axis_a_tready> of the instance <MUL_BB_LOOP[2].mul_bb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 214: Output port <s_axis_b_tready> of the instance <MUL_BB_LOOP[2].mul_bb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 214: Output port <s_axis_a_tready> of the instance <MUL_BB_LOOP[3].mul_bb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 214: Output port <s_axis_b_tready> of the instance <MUL_BB_LOOP[3].mul_bb> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 237: Output port <s_axis_a_tready> of the instance <NORM_B_CHAIN.addb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 237: Output port <s_axis_b_tready> of the instance <NORM_B_CHAIN.addb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 251: Output port <s_axis_a_tready> of the instance <NORM_B_CHAIN.NORM_B_ADD_CHAIN[2].addbk> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 251: Output port <s_axis_b_tready> of the instance <NORM_B_CHAIN.NORM_B_ADD_CHAIN[2].addbk> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 251: Output port <s_axis_a_tready> of the instance <NORM_B_CHAIN.NORM_B_ADD_CHAIN[3].addbk> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 251: Output port <s_axis_b_tready> of the instance <NORM_B_CHAIN.NORM_B_ADD_CHAIN[3].addbk> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 269: Output port <s_axis_a_tready> of the instance <sqrtB> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 285: Output port <s_axis_a_tready> of the instance <mul_norm> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 285: Output port <s_axis_b_tready> of the instance <mul_norm> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 304: Output port <s_axis_a_tready> of the instance <div_cos> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "T:\benmed\Similarity_Measure\Similarity_Measure\Similarity.v" line 304: Output port <s_axis_b_tready> of the instance <div_cos> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <FP_Cosine_Similarity> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/FP_Multiplier.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/FP_Adder.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/FP_Sqrt.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/FP_Divider.ngc>.
+Reading Secure Unit <blk00000001>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_AB_LOOP[0].mul_ab>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_AB_LOOP[1].mul_ab>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_AB_LOOP[2].mul_ab>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_AB_LOOP[3].mul_ab>.
+Loading core <FP_Adder> for timing and area information for instance <DOT_CHAIN.add0>.
+Loading core <FP_Adder> for timing and area information for instance <DOT_CHAIN.DOT_ADD_CHAIN[2].addj>.
+Loading core <FP_Adder> for timing and area information for instance <DOT_CHAIN.DOT_ADD_CHAIN[3].addj>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_AA_LOOP[0].mul_aa>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_AA_LOOP[1].mul_aa>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_AA_LOOP[2].mul_aa>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_AA_LOOP[3].mul_aa>.
+Loading core <FP_Adder> for timing and area information for instance <NORM_A_CHAIN.adda0>.
+Loading core <FP_Adder> for timing and area information for instance <NORM_A_CHAIN.NORM_A_ADD_CHAIN[2].addak>.
+Loading core <FP_Adder> for timing and area information for instance <NORM_A_CHAIN.NORM_A_ADD_CHAIN[3].addak>.
+Loading core <FP_Sqrt> for timing and area information for instance <sqrtA>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_BB_LOOP[0].mul_bb>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_BB_LOOP[1].mul_bb>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_BB_LOOP[2].mul_bb>.
+Loading core <FP_Multiplier> for timing and area information for instance <MUL_BB_LOOP[3].mul_bb>.
+Loading core <FP_Adder> for timing and area information for instance <NORM_B_CHAIN.addb0>.
+Loading core <FP_Adder> for timing and area information for instance <NORM_B_CHAIN.NORM_B_ADD_CHAIN[2].addbk>.
+Loading core <FP_Adder> for timing and area information for instance <NORM_B_CHAIN.NORM_B_ADD_CHAIN[3].addbk>.
+Loading core <FP_Sqrt> for timing and area information for instance <sqrtB>.
+Loading core <FP_Multiplier> for timing and area information for instance <mul_norm>.
+Loading core <FP_Divider> for timing and area information for instance <div_cos>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <FP_Cosine_Similarity> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FP_Cosine_Similarity, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : FP_Cosine_Similarity.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 13014
+#      GND                         : 38
+#      INV                         : 165
+#      LUT1                        : 175
+#      LUT2                        : 970
+#      LUT3                        : 3812
+#      LUT4                        : 749
+#      LUT5                        : 845
+#      LUT6                        : 1068
+#      MUXCY                       : 2750
+#      VCC                         : 38
+#      XORCY                       : 2404
+# FlipFlops/Latches                : 11833
+#      FD                          : 737
+#      FDE                         : 10546
+#      FDR                         : 138
+#      FDRE                        : 412
+# Shift Registers                  : 449
+#      SRLC16E                     : 407
+#      SRLC32E                     : 42
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 298
+#      IBUF                        : 265
+#      OBUF                        : 33
+# DSPs                             : 44
+#      DSP48E1                     : 44
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:           11833  out of  126800     9%  
+ Number of Slice LUTs:                 8233  out of  63400    12%  
+    Number used as Logic:              7784  out of  63400    12%  
+    Number used as Memory:              449  out of  19000     2%  
+       Number used as SRL:              449
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:  20066
+   Number with an unused Flip Flop:    8233  out of  20066    41%  
+   Number with an unused LUT:         11833  out of  20066    58%  
+   Number of fully used LUT-FF pairs:     0  out of  20066     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         299
+ Number of bonded IOBs:                 299  out of    210   142% (*) 
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+ Number of DSP48E1s:                     44  out of    240    18%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 12326 |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 3.532ns (Maximum Frequency: 283.118MHz)
+   Minimum input arrival time before clock: 2.291ns
+   Maximum output required time after clock: 1.031ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 3.532ns (frequency: 283.118MHz)
+  Total number of paths / destination ports: 126841 / 26387
+-------------------------------------------------------------------------
+Delay:               3.532ns (Levels of Logic = 6)
+  Source:            sec_inst (FF)
+  Destination:       sec_inst (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: sec_inst to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out           30   0.478   0.688  sec_inst (sec_net)
+     end scope: 'DOT_CHAIN.DOT_ADD_CHAIN[3].ADDJ/BLK00000001:M_AXIS_RESULT_TVALID'
+     end scope: 'DOT_CHAIN.DOT_ADD_CHAIN[3].ADDJ:M_AXIS_RESULT_TVALID'
+     LUT2:I0->O            8   0.124   0.582  START_DIV1 (START_DIV)
+     begin scope: 'DIV_COS:S_AXIS_A_TVALID'
+     begin scope: 'DIV_COS/BLK00000001:S_AXIS_A_TVALID'
+     SEC:in->out           1   0.124   0.536  sec_inst (sec_net)
+     SEC:in->out           2   0.124   0.722  sec_inst (sec_net)
+     SEC:in->out           1   0.124   0.000  sec_inst (sec_net)
+     SEC:in                    0.030          sec_inst
+    ----------------------------------------
+    Total                      3.532ns (1.004ns logic, 2.528ns route)
+                                       (28.4% logic, 71.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 2473 / 2413
+-------------------------------------------------------------------------
+Offset:              2.291ns (Levels of Logic = 5)
+  Source:            A_VALID_IN<3> (PAD)
+  Destination:       sec_inst (FF)
+  Destination Clock: CLK rising
+
+  Data Path: A_VALID_IN<3> to sec_inst
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            13   0.001   0.616  A_VALID_IN_3_IBUF (A_VALID_IN_3_IBUF)
+     begin scope: 'MUL_AA_LOOP[3].MUL_AA:S_AXIS_B_TVALID'
+     begin scope: 'MUL_AA_LOOP[3].MUL_AA/BLK00000001:S_AXIS_B_TVALID'
+     SEC:in->out           1   0.124   0.536  sec_inst (sec_net)
+     SEC:in->out           4   0.124   0.736  sec_inst (sec_net)
+     SEC:in->out           1   0.124   0.000  sec_inst (sec_net)
+     SEC:in                    0.030          sec_inst
+    ----------------------------------------
+    Total                      2.291ns (0.403ns logic, 1.888ns route)
+                                       (17.6% logic, 82.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 33 / 33
+-------------------------------------------------------------------------
+Offset:              1.031ns (Levels of Logic = 2)
+  Source:            sec_inst (FF)
+  Destination:       COS_VALID (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: sec_inst to COS_VALID
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SEC:C->out           37   0.478   0.553  sec_inst (sec_net)
+     end scope: 'DIV_COS/BLK00000001:M_AXIS_RESULT_TVALID'
+     end scope: 'DIV_COS:M_AXIS_RESULT_TVALID'
+     OBUF:I->O                 0.000          COS_VALID_OBUF (COS_VALID)
+    ----------------------------------------
+    Total                      1.031ns (0.478ns logic, 0.553ns route)
+                                       (46.4% logic, 53.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.532|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 20.72 secs
+ 
+--> 
+
+Total memory usage is 4714524 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :   48 (   0 filtered)
+
