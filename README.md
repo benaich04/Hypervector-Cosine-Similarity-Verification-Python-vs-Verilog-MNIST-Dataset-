@@ -101,7 +101,7 @@ for file in hypervector_files:
 
 * Implement cosine similarity in Verilog using Xilinx ISE.
 * Use floating-point multiplier, adder, square root, and divider IP cores.
-* Inputs: 1000-element vectors, 32-bit IEEE-754 floating-point.
+* Inputs: 100-element vectors, 32-bit IEEE-754 floating-point.
 
 ### 5. Verilog Testbench
 
