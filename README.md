@@ -164,7 +164,8 @@ During execution, multiple screenshots are taken to illustrate the full flow:
 ### 5. Result Table Construction
 * Screenshot of all extracted hex values converted back to floating-point decimal values.
 * A final result table is built comparing Python and Verilog values side-by-side.
-  ![451308174-eaa74d21-7984-4503-8a3b-6e3f56e8f468](https://github.com/user-attachments/assets/892bbbfd-d10a-4d1e-8236-6cbbfab1a649)
+
+![451308174-eaa74d21-7984-4503-8a3b-6e3f56e8f468](https://github.com/user-attachments/assets/892bbbfd-d10a-4d1e-8236-6cbbfab1a649)
 
 
 
