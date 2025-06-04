@@ -209,6 +209,11 @@ This project verifies floating-point hardware hypervector cosine similarity pipe
 
 ---
 
+⚠ Important Note on Precision Differences
+Verilog simulations compute cosine similarity fully in IEEE-754 single precision (32-bit), while Python performs all operations by default in double precision (64-bit). As a result, small numerical differences appear in the final cosine similarity outputs. These variations remain fully consistent with IEEE-754 rounding behavior. Additionally, the Verilog floating-point IP cores apply intermediate rounding at each pipeline stage (e.g., after every multiplication, addition, square root), which further contributes to these slight deviations. Despite this, the final classification ranking remains identical between Python and Verilog.
+
+---
+
 ## References
 
 * [Original MNIST Hyperdimensional Computing Repo](https://github.com/noahgolmant/HyperdimMNIST)
