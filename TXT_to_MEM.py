@@ -4,7 +4,7 @@ import os
 
 
 # Set your directory where the .txt files are stored:
-directory = r'C:\Users\NYUAD\Downloads\test\output_data\Hypervectors\TXT_files'  # <-- update this path as needed
+directory = r'C:\Path\To\TXT_Files'  # <-- update this path as needed
 
 
 # List of hypervector files
