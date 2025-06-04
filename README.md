@@ -134,6 +134,34 @@ print(hex_to_float("3f7f82ab"))
 Python uses 64-bit floats; Verilog uses 32-bit floats with intermediate rounding after each operation inside Xilinx IP cores. These rounding differences explain small discrepancies, while ranking remains identical.
 
 ---
+Example Run (Full Debug Session)
+
+During execution, multiple screenshots are taken to illustrate the full flow:
+
+1. Python hypervector generation
+
+Screenshot showing MNIST hypervector generation with all class cosine similarities printed.
+
+2. NPY to TXT Conversion
+
+Screenshot showing the conversion script successfully saving .txt files.
+
+3. TXT to MEM Conversion
+
+Screenshot showing the MEM file generation script producing .mem files for Verilog.
+
+4. Verilog Testbench Execution
+
+Screenshot of the ISE simulation console displaying cosine similarity results per class, printed in IEEE-754 hex.
+
+5. Result Table Construction
+
+Screenshot of all extracted hex values converted back to floating-point decimal values.
+
+A final result table is built comparing Python and Verilog values side-by-side.
+
+Example Results Table
+---
 
 ## Sample Results Table
 
