@@ -175,6 +175,6 @@ This project verifies floating-point hardware hypervector cosine similarity pipe
 
 ## References
 
-* [Original MNIST Hyperdimensional Computing Repo](https://github.com/taylorjoshua/hyperdimensional-computing-mnist)
+* [Original MNIST Hyperdimensional Computing Repo](https://github.com/noahgolmant/HyperdimMNIST)
 * [IEEE-754 Float Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
-* Xilinx Floating Point IP Documentation
+* [Xilinx Floating Point IP Documentation](https://docs.amd.com/v/u/en-US/pg060-floating-point)
