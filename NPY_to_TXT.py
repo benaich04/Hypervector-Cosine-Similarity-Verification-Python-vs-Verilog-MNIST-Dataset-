@@ -3,7 +3,7 @@ import os
 
 
 # Define folder where npy hypervectors are stored
-folder = r'C:\Users\NYUAD\Downloads\test\output_data\Hypervectors'
+folder = r'C:\Path\To\Output_Folder' #ENTER PATH TO OUTPUT FOLDER
 
 
 # List of all hypervector files
